@@ -1,11 +1,5 @@
 # Изучение Entity Framework и ADO.NET 
 
-## Содержание
-
-* [Entity Framework + Console App](#Entity Framework + Console App)
-* [Entity Framework + WPF](#Entity Framework + WPF)
-* [Entity Framework + Windows Forms](#Entity Framework + Windows Forms)
-
 ### Entity Framework + Console App
 
 Здесь приводится в пример консольное приложение, создающее базу данных через EF, добавляется 2 поля.
