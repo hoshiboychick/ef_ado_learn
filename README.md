@@ -1,9 +1,16 @@
 # Изучение Entity Framework и ADO.NET 
 
 #### Содержание:
-- [Файл конфигурации App.config](#файл-конфигурации-appconfig)
+- [Файл конфигурации App.config](#файл-конфигурации-appconfig) 
 - [Entity Framework](#entity-framework)
+  - [Создание модели User](#создание-модели-user)
+  - [Контекст данных](#контекст-данных)
+  - [Вывод данных в DataGrid в WPF](#вывод-данных-в-datagrid-в-wpf)
+  - [Вывод данных в DataGridView в Windows Forms](#вывод-данных-в-datagridview-в-windows-forms)
 - [ADO.NET](#adonet)
+  - [Чтение данных из БД и их вывод](#чтение-данных-из-бд-и-их-вывод)
+  - [Чтение данных из БД и их вывод в DataGrid в WPF](#чтение-данных-из-бд-и-их-вывод-в-datagrid-в-wpf)
+  - [Чтение данных из БД и их вывод в DataGridView в Windows Forms](#чтение-данных-из-бд-и-их-вывод-в-datagridview-в-windows-forms)
 
 ## Файл конфигурации App.config
 ```xml
