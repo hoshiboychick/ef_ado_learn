@@ -1,0 +1,29 @@
+﻿<Window x:Class="ado_wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ado_wpf"
+        mc:Ignorable="d"
+        Title="ADO.NET" 
+        Height="262" 
+        Width="310" Loaded="Window_Loaded">
+    <Grid>
+        <DataGrid AutoGenerateColumns="False" 
+                  x:Name="usersGrid" 
+                  SelectionChanged="usersGrid_SelectionChanged" 
+                  IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Id}" 
+                                    Header="Id"
+                                    Width="50"/>
+                <DataGridTextColumn Binding="{Binding Name}" 
+                                    Header="Имя"
+                                    Width="100"/>
+                <DataGridTextColumn Binding="{Binding Age}" 
+                                    Header="Возраст" 
+                                    Width="110"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
