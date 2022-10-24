@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ado_wpf"
         mc:Ignorable="d"
-        Title="ADO.NET" 
+        Title="AdoWPF" 
         Height="262" 
         Width="310" Loaded="Window_Loaded">
     <Grid>

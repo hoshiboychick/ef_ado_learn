@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ado_console
 {
-    class Program
+    class AdoConsole
     {
         static async Task Main(string[] args)
         {

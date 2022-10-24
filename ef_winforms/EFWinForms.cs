@@ -4,11 +4,11 @@ using ApplicationContext = ef_winforms.Models.ApplicationContext;
 
 namespace ef_winforms
 {
-    public partial class Form1 : Form
+    public partial class EFWinForms : Form
     {
         ApplicationContext db = new ApplicationContext();
 
-        public Form1()
+        public EFWinForms()
         {
             InitializeComponent();
             db.Users.Load();
