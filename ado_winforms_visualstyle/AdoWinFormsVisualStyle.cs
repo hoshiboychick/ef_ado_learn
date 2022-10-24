@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ado_winforms_visualstyle
 {
-    public partial class Form1 : Form
+    public partial class AdoWinFormsVisualStyle : Form
     {
-        public Form1()
+        public AdoWinFormsVisualStyle()
         {
             InitializeComponent();
         }

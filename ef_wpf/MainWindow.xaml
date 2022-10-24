@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ef_wpf"
         mc:Ignorable="d"
-        Title="Entity Framework"
+        Title="EFWPF"
         Height="262" 
         Width="310">
     <Grid>

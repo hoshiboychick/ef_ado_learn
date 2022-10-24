@@ -4,13 +4,13 @@ using System.Data.SqlClient;
 
 namespace ado_winforms
 {
-    public partial class Form1 : Form
+    public partial class AdoWinForms : Form
     {
         string connectionString;
         SqlDataAdapter adapter;
         DataTable usersTable;
 
-        public Form1()
+        public AdoWinForms()
         {
             InitializeComponent();
             connectionString = ConfigurationManager.ConnectionStrings["ConnectionLocalDb"].ToString();
